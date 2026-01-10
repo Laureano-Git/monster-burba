@@ -1,7 +1,7 @@
 ## 🍔MonsterBurga - Fullstack Delivery System
 ¡Bienvenido a MonsterBurga! Una aplicación web de delivery de hamburguesas diseñada para optimizar la toma de pedidos a través de WhatsApp. Este proyecto fue construido con un enfoque en la reactividad, el diseño moderno (Estética Neón) y la eficiencia en la comunicación entre Backend y Frontend.
 
-🚀Características principales
+## 🚀Características principales
 Menú Dinámico: Gestión completa de productos (hamburguesas y complementos) desde un panel administrativo.
 
 Personalización de Pedidos: Selección de tamaños (Simple, Doble, Triple), ingredientes y adicionales en tiempo real.
@@ -12,14 +12,14 @@ Integración con WhatsApp: Generación automática de mensajes formateados y cod
 
 Arquitectura Limpia: Uso de variables de entorno para seguridad y modelos de datos unificados.
 
-🛠️Tech Stack
+## 🛠️Tech Stack
 Django	Backend y API REST (Python)
 SvelteKit	Frontend Reactivo (JavaScript)
 SQLite	Base de datos (Desarrollo)
 CSS Custom Properties	Diseño Neón / UI / UX
 dotenv	Gestión de variables de entorno y seguridad
 
-📦 Instalación y Configuración
+## 📦 Instalación y Configuración
 1. Backend (Django - en consola)
 cd backend
 python -m venv venv
@@ -33,7 +33,7 @@ cd frontend
 npm install
 npm run dev
 
-⚙️ Variables de Entorno (.env)
+## ⚙️ Variables de Entorno (.env)
 Para que el proyecto funcione correctamente, debés configurar los siguientes archivos .env:
 
 En /backend/.env:
@@ -48,7 +48,7 @@ PUBLIC_API_URL: URL de tu backend (ej. http://127.0.0.1:8000/api).
 
 PUBLIC_WHATSAPP_PHONE: El número donde se recibirán los pedidos.
 
-👤 Autor
+## 👤 Autor
 Massa Laureano - Desarrollador Fullstack Junior
 
 LinkedIn - https://www.linkedin.com/in/laureanomassa/
